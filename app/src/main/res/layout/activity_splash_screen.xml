@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/colorAccent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SplashScreen">
+
+    <ImageView
+            android:id="@+id/icon"
+            android:src="@drawable/barista"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
+    <TextView
+            android:textStyle="bold"
+            android:textSize="28dp"
+            android:paddingTop="5dp"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:text="Pesan Makanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
